@@ -17,6 +17,11 @@ async function dbconnection(){
         console.log(`server error`)
     }
 }
+
+//routes get post put delete
+app.get("rout name",(req,res)=>{
+    
+})
 //runserver
 app.listen(port,()=>{
     console.log(`the server is running at port${port}`)
